@@ -119,6 +119,7 @@
     <div class="top-buttons">
         <a href="index.jsp" class="btn-secundario btn">Página Inicial</a>
         <a href="AlunoServlet?acao=listar" class="btn btn-secundario">Lista de Alunos</a>
+        <a href="FinanceiroServlet" class="btn btn-secundario">Dashboard Financeiro</a>
     </div>
 
     <form action="AlunoServlet" method="POST">

@@ -3,7 +3,6 @@ package br.com.academia.dao;
 import br.com.academia.factory.ConnectionFactory;
 import br.com.academia.model.Aluno;
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -21,7 +20,6 @@ public class AlunoDAO {
             stmt.setString(2, a.getCpf());
             stmt.setString(3, a.getPlano());
             stmt.setDate(4, a.getDataMatricula());
-
             stmt.executeUpdate();
         }
     }
@@ -45,7 +43,6 @@ public class AlunoDAO {
                 lista.add(a);
             }
         }
-
         return lista;
     }
 
@@ -68,7 +65,6 @@ public class AlunoDAO {
                 }
             }
         }
-
         return a;
     }
 

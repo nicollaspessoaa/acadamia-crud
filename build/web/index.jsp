@@ -97,14 +97,15 @@
 
         <div class="home-wrapper">
             <div class="home-card">
-                <h1 class="home-title">Sistema de Matrícula da Academia</h1>
+                <h1 class="home-title">Sistema de Academia</h1>
                 <p class="home-subtitle">
                     Bem-vindo! Gerencie matrículas, planos e alunos de forma simples e rápida.
                 </p>
 
                 <div class="home-actions">
                     <a class="btn" href="AlunoServlet?acao=listar">Listar alunos</a>
-                    <a class="btn btn-secundario" href="AlunoServlet?acao=novo">Cadastrar novo aluno</a>
+                    <a class="btn" href="AlunoServlet?acao=novo">Cadastrar novo aluno</a>
+                    <a class="btn btn-secundario" href="FinanceiroServlet" >Consultar Financeiro</a>
                 </div>
             </div>
         </div>
